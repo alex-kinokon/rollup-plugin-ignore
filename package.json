@@ -1,0 +1,35 @@
+{
+  "name": "rollup-plugin-ignore",
+  "version": "1.0.9",
+  "description": "Ignore a module in rollup.js",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin"
+  ],
+  "author": "proteriax",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proteriax/rollup-plugin-ignore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/proteriax/rollup-plugin-ignore/issues"
+  },
+  "homepage": "https://github.com/proteriax/rollup-plugin-ignore#readme",
+  "devDependencies": {
+    "rollup": "^2.23.0"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "tabWidth": 2,
+    "printWidth": 90,
+    "semi": false,
+    "singleQuote": false,
+    "trailingComma": "es5"
+  }
+}
