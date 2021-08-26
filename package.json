@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-ignore",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Ignore a module in rollup.js",
   "main": "index.js",
   "types": "index.d.ts",
