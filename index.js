@@ -7,7 +7,7 @@ function ignore(list, options = {}) {
       return importee === emptyFileName ||
         list.includes(importee) ||
         (options.commonjsBugFix &&
-          list.includes(importee.replace(/^\0/, "").replace(/\?commonjs-proxy$/, "")))
+          list.includes(importee.replace(/^\0/, "").replace(/\?(commonjs-proxy|commonjs-require)$/, "")))
         ? emptyFileName
         : null
     },
