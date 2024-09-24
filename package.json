@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/proteriax/rollup-plugin-ignore#readme",
   "devDependencies": {
-    "rollup": "^2.23.0"
+    "rollup": "^3.29.5"
   },
   "prettier": {
     "arrowParens": "avoid",
